@@ -353,6 +353,7 @@ lazy val scioExamples: Project = Project(
 ).dependsOn(
   scioCore,
   scioBigtable,
+  scioExtra,
   scioSchemas,
   scioHdfs,
   scioTest % "test"
